@@ -23,7 +23,6 @@ def graduation(n):
     distribution = generate_binary_numbers(n)
 
     for x in distribution:
-        print(x)
         # Check if student is not absent for 4 days consecutively.
         if "0000" not in x:
             count += 1
